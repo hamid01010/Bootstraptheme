@@ -7,14 +7,14 @@
                 <hr class="my-4">
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a><br><br><br>
-                <div class="logo"><img src="./images.png" width="60px"></div>
-                <div class="logo"><img src="./mail.png" width="60px"></div>
-                <div class="logo"><img src="./rocket.png" width="60px"></div>
-                <div class="logo"><img src="./google.png" width="60px"></div>
+                <div class="logo"><img src="./logos/images.png" width="60px"></div>
+                <div class="logo"><img src="./logos/mail.png" width="60px"></div>
+                <div class="logo"><img src="./logos/rocket.png" width="60px"></div>
+                <div class="logo"><img src="./logos/google.png" width="60px"></div>
             </div>
         </div>
         <div class="img">
-            <img src="./cartoon-doctor.jpg" width="500px">
+            <img src="./images/cartoon-doctor.jpg" width="500px">
         </div>
         <div class="clr"></div>
   </div>
