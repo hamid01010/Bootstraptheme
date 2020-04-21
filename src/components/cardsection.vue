@@ -1,48 +1,53 @@
 <template>
-    <div class="container">
-        <div class="cards">
-<div class="row row-cols-1 row-cols-md-2">
-  <div class="col mb-4">
-    <div class="card">
-      
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="container mt-5">
+        <div class="cards mt-3">
+
+            <div class="row">
+                <div class="col-sm-6 mt-4">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-sm-6 mt-4">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        
         </div>
         <div class="sidebar">
             <h1>Lorem ipsum dolor sit amet consectetur</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt nam, ipsam tempora ea neque temporibus laborum! Ipsam sapiente ab veniam perferendis voluptas, quia ratione rem velit iure placeat quo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt nam, ipsam tempora ea neque temporibus laborum! Ipsam sapiente ab veniam perferendis voluptas, quia ratione rem velit iure placeat quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nihil deserunt ab, laboriosam error illum sed ad, ratione fugit autem voluptatum earum tenetur quam alias accusantium quos enim expedita labore!</p>
             <button class="btn btn-primary">Take 1-min tour</button>
         </div>
         <div class="clr"></div>
@@ -55,13 +60,25 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.card:hover{
+    background: #3bb0f5;
+    color: white;
+    
+    .btn{
+    display: inline;
+    }    
+}
+.card .btn{
+    display: none;
+}
 .cards{
     float: left;
     width: 50%;
     box-sizing: border-box;
 }
 .sidebar{
+    padding: 70px 20px 70px 50px;
     float: right;
     width: 50%;
     box-sizing: border-box;
@@ -81,4 +98,5 @@ export default {
 .clr{
 	clear:both;
 }
+
 </style>
