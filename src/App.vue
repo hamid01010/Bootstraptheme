@@ -6,30 +6,33 @@
     </div>
     <router-view/> -->
     <navbar />
-  
+    <jumbotron />
   </div>
 </template>
 
 <script>
 import navbar from "./components/Navbar"
+import jumbotron from "./components/jumbotron"
 export default {
     name: "app",
     components:{
-        navbar
+        navbar,
+        jumbotron
     }
 }
 </script>
 
-<style lang="scss">
-.marginleft{
-    margin-left: 500px;
+<style>
+*{
+    padding: 0;
+    margin: 0;
 }
 #app {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2c3e50;
 }
 
-// #nav {
+/* // #nav {
 //   padding: 30px;
 
 //   a {
@@ -40,5 +43,5 @@ export default {
 //       color: #42b983;
 //     }
 //   }
-// }
+// } */
 </style>
