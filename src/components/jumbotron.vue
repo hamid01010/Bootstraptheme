@@ -1,12 +1,16 @@
 <template>
-  <div class="jumbo container">
+  <div class="jumbo container mt-5">
         <div class="jumbotron jumbotron-fluid bg-white">
             <div class="container">
                 <h1 class="display-4">Hello, world!</h1>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                 <hr class="my-4">
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a><br><br><br>
+                <div class="logo"><img src="./images.png" width="60px"></div>
+                <div class="logo"><img src="./mail.png" width="60px"></div>
+                <div class="logo"><img src="./rocket.png" width="60px"></div>
+                <div class="logo"><img src="./google.png" width="60px"></div>
             </div>
         </div>
         <div class="img">
@@ -23,6 +27,10 @@ export default {
 </script>
 
 <style>
+.logo{
+    padding-left: 20px;
+    display: inline;
+}
 .jumbotron{
     float: left;
     width: 50%;
