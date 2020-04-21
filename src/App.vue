@@ -6,18 +6,22 @@
     </div>
     <router-view/> -->
     <navbar />
-    <jumbotron />
+    <jumbotron /><br><br>
+    <hr>
+    <cardsection />
   </div>
 </template>
 
 <script>
 import navbar from "./components/Navbar"
 import jumbotron from "./components/jumbotron"
+import cardsection from "./components/cardsection"
 export default {
     name: "app",
     components:{
         navbar,
-        jumbotron
+        jumbotron,
+        cardsection
     }
 }
 </script>

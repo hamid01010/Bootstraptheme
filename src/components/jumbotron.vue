@@ -11,7 +11,8 @@
         </div>
         <div class="img">
             <img src="./cartoon-doctor.jpg" width="500px">
-        </div> 
+        </div>
+        <div class="clr"></div>
   </div>
 </template>
 
@@ -43,6 +44,9 @@ export default {
         width: 100%;
         box-sizing: border-box;
     }
+}
+.clr{
+	clear:both;
 }
 
 </style>
