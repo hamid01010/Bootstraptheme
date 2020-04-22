@@ -9,6 +9,9 @@
     <jumbotron /><br><br>
     <hr>
     <cardsection />
+    <hr>
+    <videosection />
+    <hr>
   </div>
 </template>
 
@@ -16,12 +19,14 @@
 import navbar from "./components/Navbar"
 import jumbotron from "./components/jumbotron"
 import cardsection from "./components/cardsection"
+import videosection from "./components/videosection"
 export default {
     name: "app",
     components:{
         navbar,
         jumbotron,
-        cardsection
+        cardsection,
+        videosection
     }
 }
 </script>

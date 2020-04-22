@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="img">
-            <img src="./images/cartoon-doctor.jpg" width="500px">
+            <img src="./images/cartoon-doctor.jpg" width="100%">
         </div>
         <div class="clr"></div>
   </div>

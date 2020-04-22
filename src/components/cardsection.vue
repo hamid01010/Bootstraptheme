@@ -3,12 +3,12 @@
         <div class="cards mt-3">
 
             <div class="row">
-                <div class="col-sm-6 mt-4">
+                <div class="col-sm-6 mt-4 firstone">
                     <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                        <a href="#" class="text-white"><b>Read more</b></a></p>
                     </div>
                     </div>
                 </div>
@@ -16,20 +16,20 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            <a href="#" class="text-white"><b>Read more</b></a></p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-            <div class="col-sm-6 mt-4">
+            <div class="col-sm-6 mt-4 firstone">
                 <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                    <a href="#" class="text-white"><b>Read more</b></a></p>
                 </div>
                 </div>
             </div>
@@ -37,8 +37,8 @@
                 <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-outline-light">Go somewhere</a>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                    <a href="#" class="text-white"><b>Read more</b></a></p>
                 </div>
                 </div>
             </div>
@@ -65,11 +65,11 @@ export default {
     background: #3bb0f5;
     color: white;
     
-    .btn{
-    display: inline;
+    a{
+        display: inline;
     }    
 }
-.card .btn{
+.card a{
     display: none;
 }
 .cards{
@@ -78,7 +78,7 @@ export default {
     box-sizing: border-box;
 }
 .sidebar{
-    padding: 70px 20px 70px 50px;
+    padding: 50px 20px 50px 50px;
     float: right;
     width: 50%;
     box-sizing: border-box;
@@ -93,6 +93,9 @@ export default {
         float: none;
         width: 100%;
         box-sizing: border-box;
+    }
+    .firstone{
+        margin-bottom: 20px;
     }
 }
 .clr{
