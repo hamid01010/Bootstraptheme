@@ -12,6 +12,7 @@
     <hr>
     <videosection />
     <hr>
+    <carouselsection />
   </div>
 </template>
 
@@ -20,13 +21,15 @@ import navbar from "./components/Navbar"
 import jumbotron from "./components/jumbotron"
 import cardsection from "./components/cardsection"
 import videosection from "./components/videosection"
+import carouselsection from "./components/carousel"
 export default {
     name: "app",
     components:{
         navbar,
         jumbotron,
         cardsection,
-        videosection
+        videosection,
+        carouselsection
     }
 }
 </script>

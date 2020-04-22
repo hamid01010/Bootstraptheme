@@ -1,12 +1,13 @@
 <template>
-  <div class="container my-5">
-    <br>  
-    <h1 class="text-center">A product for every niche</h1>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil pariatur</p>  
-    <div class="embed-responsive embed-responsive-16by9 vid mt-4">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+  <div class="container mb-5">
+    <div class="text-center my-5">  
+        <h1>A product for every niche</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil pariatur</p>
+    </div>  
+    <div class="embed-responsive embed-responsive-16by9 vid">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l482T0yNkeo" allowfullscreen></iframe>
     </div>
-    <div class="sidesection">
+    <div class="sidesection mt-4">
         <div>
             <h4>Lorem ipsum dolor</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, qui accusantium, voluptatem tempora corrupti voluptatibus iure ex sit facere laborum</p>
@@ -28,12 +29,13 @@ export default {
 
 <style>
     .vid{
+        border-radius: 5px;
         float: left;
         width: 50%;
         box-sizing: border-box;
     }
     .sidesection{
-        padding: 50px 20px 50px 50px;
+        padding-left: 30px;
         float: right;
         width: 50%;
         box-sizing: border-box;
