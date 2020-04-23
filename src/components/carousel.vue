@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+    color: gray
+}
 .carousel-control-prev-icon, .carousel-control-next-icon{
     height: 32px;
     width: 25px;

@@ -1,44 +1,19 @@
 <template>
-  <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/> -->
+  <div id="app"> 
     <navbar />
-    <jumbotron /><br><br>
-    <hr>
-    <cardsection />
-    <hr>
-    <videosection />
-    <hr>
-    <carouselsection />
-    <hr>
-    <gallary />
-    <hr>
-    <minicarousel />
-    <hr>
+    <router-view />
+    <app-footer />
   </div>
 </template>
 
 <script>
-import navbar from "./components/Navbar"
-import jumbotron from "./components/jumbotron"
-import cardsection from "./components/cardsection"
-import videosection from "./components/videosection"
-import carouselsection from "./components/carousel"
-import gallary from "./components/gallary"
-import minicarousel from "./components/minicarousel"
+import Navbar from "./components/Navbar"
+import AppFooter from "./components/AppFooter"
 export default {
     name: "app",
     components:{
-        navbar,
-        jumbotron,
-        cardsection,
-        videosection,
-        carouselsection,
-        gallary,
-        minicarousel
+        Navbar,
+        AppFooter
     }
 }
 </script>
@@ -52,7 +27,9 @@ export default {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2c3e50;
 }
-
+.navbar-nav .router-link-exact-active {
+    color: red !important
+}
 /* // #nav {
 //   padding: 30px;
 

@@ -23,11 +23,14 @@
 
 <script>
 export default {
-    name: "videosection"
+    name: "video-section"
 }
 </script>
 
-<style>
+<style scoped>
+    p{
+        color: gray;
+    }
     .vid{
         border-radius: 5px;
         float: left;

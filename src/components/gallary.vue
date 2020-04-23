@@ -22,44 +22,44 @@
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="row mx-auto">
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="./images/carousel2.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="./images/carousel2.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="./images/carousel2.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="./images/carousel2.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="./images/carousel2.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="./images/carousel2.jpg" class="img-fluid">
             </div>
         </div>
     </div>
   <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="row mx-auto">
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
         </div>
   </div>

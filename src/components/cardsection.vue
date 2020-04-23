@@ -61,9 +61,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p{
+    color:gray
+}
 .card:hover{
     background: #3bb0f5;
     color: white;
+    p{
+        color:white
+    }
     
     a{
         display: inline;
