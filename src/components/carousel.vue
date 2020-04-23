@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mb-5">
         <div class="text-center my-5">
             <h1>But don’t take our work for it</h1>
             <p>See what people have to say about our product</p>
@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import card from "./singlecard"
+import card from "./carouselcard"
 export default {
     name: "carouselsection",
     components:{

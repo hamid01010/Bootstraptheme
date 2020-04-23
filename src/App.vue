@@ -13,6 +13,8 @@
     <videosection />
     <hr>
     <carouselsection />
+    <hr>
+    <gallary />
   </div>
 </template>
 
@@ -22,6 +24,7 @@ import jumbotron from "./components/jumbotron"
 import cardsection from "./components/cardsection"
 import videosection from "./components/videosection"
 import carouselsection from "./components/carousel"
+import gallary from "./components/gallary"
 export default {
     name: "app",
     components:{
@@ -29,7 +32,8 @@ export default {
         jumbotron,
         cardsection,
         videosection,
-        carouselsection
+        carouselsection,
+        gallary
     }
 }
 </script>
