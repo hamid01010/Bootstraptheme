@@ -15,6 +15,9 @@
     <carouselsection />
     <hr>
     <gallary />
+    <hr>
+    <minicarousel />
+    <hr>
   </div>
 </template>
 
@@ -25,6 +28,7 @@ import cardsection from "./components/cardsection"
 import videosection from "./components/videosection"
 import carouselsection from "./components/carousel"
 import gallary from "./components/gallary"
+import minicarousel from "./components/minicarousel"
 export default {
     name: "app",
     components:{
@@ -33,7 +37,8 @@ export default {
         cardsection,
         videosection,
         carouselsection,
-        gallary
+        gallary,
+        minicarousel
     }
 }
 </script>

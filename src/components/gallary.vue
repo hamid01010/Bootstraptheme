@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mb-5">
       <div class="text-center my-5">
           <h1>Let our work do the talking</h1>
           <p>Brands we've successfully made along the way</p>
@@ -99,6 +99,7 @@ export default {
 
 <style scoped>
 img{
+    border-radius: 5px;
     width: 500px;
 }
 ul{
