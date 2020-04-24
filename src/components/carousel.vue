@@ -17,11 +17,11 @@
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true" style="color:#8080809e;"></i>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <i class="fa fa-angle-right fa-3x" aria-hidden="true" style="color:#8080809e;"></i>
                 <span class="sr-only">Next</span>
             </a>
         </div>
@@ -42,10 +42,28 @@ export default {
 p{
     color: gray
 }
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    height: 32px;
-    width: 25px;
-    padding: 10px;
-    border-radius: 5px;
+
+.carousel {
+    .carousel-control-prev, 
+    .carousel-control-next {
+        transition: 0.5s;
+        opacity: 0;
+    }
+    &:hover {
+        .carousel-control-prev, 
+        .carousel-control-next {
+            opacity: 1;
+        }
+    }
+
+    i.fa {
+        display: inline-block;
+        width: 52px;
+        height: 52px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+    }
 }
+
 </style>

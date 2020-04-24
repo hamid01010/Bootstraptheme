@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style scoped>
+p{
+    color: gray;
+}
 img{
     border-radius: 5px;
 }
@@ -52,6 +55,7 @@ img{
 }
 .sidesection{
     padding-left: 25px;
+    padding-right: 20px;
     float: right;
     width: 50%;
     box-sizing: border-box;

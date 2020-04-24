@@ -12,6 +12,8 @@
     <hr>
     <mini-carousel />
     <hr>
+    <status />
+    <hr>
   </div>
 </template>
 
@@ -22,7 +24,7 @@ import VideoSection from "../components/VideoSection"
 import Carousel from "../components/Carousel"
 import Gallary from "../components/Gallary"
 import MiniCarousel from "../components/MiniCarousel"
-
+import Status from "../components/Status"
 export default {
   name: 'Home',
   components: {
@@ -31,7 +33,8 @@ export default {
       VideoSection,
       Carousel,
       Gallary,
-      MiniCarousel
+      MiniCarousel,
+      Status
   }
 }
 </script>

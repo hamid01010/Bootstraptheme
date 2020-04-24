@@ -28,7 +28,7 @@ export default {
   color: #2c3e50;
 }
 .navbar-nav .router-link-exact-active {
-    color: red !important
+    color: rgb(31, 158, 231) !important
 }
 /* // #nav {
 //   padding: 30px;
