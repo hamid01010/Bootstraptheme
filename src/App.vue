@@ -2,16 +2,19 @@
   <div id="app"> 
     <navbar />
     <router-view />
+    <ribbon />
     <app-footer />
   </div>
 </template>
 
 <script>
+import ribbon from "./components/Ribbon"
 import Navbar from "./components/Navbar"
 import AppFooter from "./components/AppFooter"
 export default {
     name: "app",
     components:{
+        ribbon,
         Navbar,
         AppFooter
     }

@@ -1,48 +1,48 @@
 <template>
-    <div class="bg-dark text-white">
+    <div class="bg-dark text-white py-3">
         <footer class="container">
-            <div class="ribbon py-4">
-                <div>
-                    <h3>Ready to revolutionize your website?</h3>
-                    <button class="btn btn-light"><b class="text-muted">Discover more</b></button>
+            <div class="row">
+                <!-- <div class="col-12 col-md">
+                    <img class="mb-2" src="https://cdn.pixabay.com/photo/2017/01/31/23/42/animal-2028258_960_720.png" alt="" width="50">
+                    <small class="d-block text-white">&copy; XYZ company 2017-2019</small>
+                </div> -->
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="clr"></div>
-            </div>  
-        <div class="row">
-        <div class="col-12 col-md">
-            <img class="mb-2" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-white">&copy; 2017-2019</small>
-        </div>
-        <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-            <li><a href="#">Cool stuff</a></li>
-            <li><a href="#">Random feature</a></li>
-            <li><a href="#">Team feature</a></li>
-            <li><a href="#">Stuff for developers</a></li>
-            <li><a href="#">Another one</a></li>
-            <li><a href="#">Last time</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-            <li><a href="#">Resource</a></li>
-            <li><a href="#">Resource name</a></li>
-            <li><a href="#">Another resource</a></li>
-            <li><a href="#">Final resource</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            </ul>
-        </div>
-        </div>
+                <div class="col-6 col-md">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled text-small">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Contact Details</h5>
+                    <ul class="list-unstyled text-small">
+                    <li><a href="#">221B Baker Street</a></li>
+                    <li><a href="#">(372) 587-2335</a></li>
+                    <li><a href="#">11 a.m - 12 p.m</a></li>
+                    </ul>
+                </div>
+
+                <div class="pl-3">
+                    <h5>Sign up for Newsletter</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </footer>
   </div>
 </template>
@@ -57,32 +57,4 @@ export default {
 li a{
     color: rgb(185, 182, 182);
 }
-h3{
-    float: left;
-    width: 85%;
-    box-sizing: border-box;
-}
-button{
-    float: right;
-    width: 15%;
-    border-radius: 20px;
-    box-sizing: border-box;
-}
-@media(max-width:1000px){
-    h3{
-        float: none;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    button{
-        float: none;
-        width: 40%;
-        margin: auto;
-        box-sizing: border-box;
-    }
-}
-.clr{
-	clear:both;
-}
-
 </style>
