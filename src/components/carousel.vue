@@ -46,7 +46,7 @@ p{
 .carousel {
     .carousel-control-prev, 
     .carousel-control-next {
-        transition: 0.5s;
+        transition: 0.3s;
         opacity: 0;
     }
     &:hover {

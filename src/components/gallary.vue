@@ -22,22 +22,22 @@
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="row mx-auto">
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2015/03/30/20/33/heart-700141_960_720.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228_960_720.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_960_720.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2020/04/21/10/26/animal-5072537_960_720.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2014/09/27/17/35/dandelion-463928_960_720.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel2.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2015/05/10/16/41/dandelion-761104_960_720.jpg" class="img-fluid">
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                 <img src="./images/carousel1.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
-                <img src="./images/carousel1.jpg" class="img-fluid">
+                <img src="https://cdn.pixabay.com/photo/2016/07/30/13/16/dandelion-1557110_960_720.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4"> 
                 <img src="./images/carousel1.jpg" class="img-fluid">

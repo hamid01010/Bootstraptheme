@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .logo{
     padding-left: 20px;
     display: inline;

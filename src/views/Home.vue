@@ -14,10 +14,13 @@
     <hr>
     <status />
     <hr>
+    <blog-section />
+    <email-section />
   </div>
 </template>
 
 <script>
+import BlogSection from "../components/BlogSection"
 import JumbotronSection from "../components/JumbotronSection"
 import CardSection from "../components/CardSection"
 import VideoSection from "../components/VideoSection"
@@ -25,6 +28,7 @@ import Carousel from "../components/Carousel"
 import Gallary from "../components/Gallary"
 import MiniCarousel from "../components/MiniCarousel"
 import Status from "../components/Status"
+import EmailSection from "../components/EmailSection"
 export default {
   name: 'Home',
   components: {
@@ -34,7 +38,9 @@ export default {
       Carousel,
       Gallary,
       MiniCarousel,
-      Status
+      Status,
+      BlogSection,
+      EmailSection
   }
 }
 </script>

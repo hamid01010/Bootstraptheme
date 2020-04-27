@@ -24,7 +24,7 @@
     <div class="card-body">
       <i class="fa fa-clock-o" aria-hidden="true"></i>  
       <h1 class="card-title">72+</h1>
-      <p class="card-text">Projects Complated</p>
+      <p class="card-text">Projects Completed</p>
     </div>
   </div>
   <div class="card">
@@ -45,6 +45,12 @@ export default {
 </script>
 
 <style scoped>
+i{
+    color: blue
+}
+p{
+    color: gray;
+}
 .card{
     transition: .6s;
     height: 160px;
