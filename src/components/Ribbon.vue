@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-dark text-white ribbon">
-            <div class="container py-4">
+  <div class="ribbon">
+            <div class="container py-5">
                 <div>
-                    <h3>Ready to revolutionize your website?</h3>
-                    <button class="btn btn-light"><b class="text-muted">Discover more</b></button>
+                    <h5>Ready to revolutionize your website?</h5>
+                    <button class="btn btn-light"><b>Discover more</b></button>
                 </div>
                 <div class="clr"></div>
             </div>
@@ -18,9 +18,11 @@ export default {
 
 <style scoped>
 .ribbon{
-    border-bottom: 1px solid gray;
+    background: #141414;
+    border-bottom: 1px solid rgba(83, 81, 81, 0.63);
 }
-h3{
+h5{
+    color: gray;
     float: left;
     width: 85%;
     box-sizing: border-box;
@@ -32,7 +34,7 @@ button{
     box-sizing: border-box;
 }
 @media(max-width:1000px){
-    h3{
+    h5{
         text-align: center;
         float: none;
         width: 100%;
