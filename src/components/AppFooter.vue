@@ -27,9 +27,9 @@
                 <div class="col-6 col-md">
                     <h5>Contact Details</h5>
                     <ul class="list-unstyled text-small">
-                    <li><a href="#">221B Baker Street</a></li>
-                    <li><a href="#">(372) 587-2335</a></li>
-                    <li><a href="#">11 a.m - 12 p.m</a></li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>221B Baker Street</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>(372) 587-2335</li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>11 a.m - 12 p.m</li>
                     </ul>
                 </div>
 
@@ -38,7 +38,7 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button">Button</button>
+                            <button class="btn btn-secondary" type="button" style="background: #7a77d0;"><span class="fa fa-paper-plane pr-1" aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </div>
@@ -54,6 +54,9 @@ export default {
 </script>
 
 <style scoped>
+i{
+    padding-right: 10px;
+}
 li a{
     color: rgb(185, 182, 182);
 }

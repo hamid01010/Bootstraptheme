@@ -33,14 +33,16 @@ button{
 }
 @media(max-width:1000px){
     h3{
+        text-align: center;
         float: none;
         width: 100%;
+        margin-bottom: 15px;
         box-sizing: border-box;
     }
     button{
         float: none;
-        width: 40%;
-        margin: auto;
+        margin-left: 32%;
+        width: 150px;
         box-sizing: border-box;
     }
 }
